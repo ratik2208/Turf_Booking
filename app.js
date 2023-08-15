@@ -28,8 +28,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb://127.0.0.1:27017/trickDB");
-// mongodb+srv://akash:akash@cluster0.trdd6ez.mongodb.net/trickDB
+mongoose.connect("mongodb+srv://pratikkpandey:Pratik@@cluster0.nywmnlk.mongodb.net/")
 // mongodb://127.0.0.1:27017/trickShotDB
 
 const Registeration = new mongoose.Schema({
